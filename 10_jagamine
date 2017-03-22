@@ -1,7 +1,9 @@
 #!/bin/bash
 # 10 numbrite valjaprintimine
-for (( i=10; i>=1; i-- ))
+for (( i=10; i>0; i-- ))
 do
 	echo $i
+	summa=$((summa+$i))
 done
+echo "summa on: $summa"
 
